@@ -41,3 +41,40 @@ app-example
 # generated native folders
 /ios
 /android
+
+# ==============================
+# ======   GITIGNORE   =========
+# ==============================
+
+/samples
+samples/*
+
+/.DS_Store
+.DS_Store/*
+
+/.idea
+.idea/*
+
+/.vscode
+.vscode/*
+
+
+# ==============================
+# ======   GITIGNORE   =========
+# ==============================
+
+
+# Git identity configuration (contains email addresses)
+.git-identities.conf
+
+# Ignore all .env files
+.env*
+# But don't ignore the templates
+!.env.example
+!.env.template
+!template.env
+
+
+# ==============================
+# ======   GITIGNORE   =========
+# ==============================
